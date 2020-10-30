@@ -1,0 +1,185 @@
+@import "../../scss/styles.scss";
+.wrap {
+  width: 80%;
+  margin: 0 auto;
+
+  h1,
+  h2,
+  p {
+    font-weight: 400;
+  }
+
+  .container {
+    background-color: #eff2f5;
+    padding: 2rem 1rem;
+    margin: 1rem 0;
+    border-left: 5px solid #0b77c2;
+
+    p {
+      font-size: 0.7rem;
+    }
+
+    span {
+      padding-left: 0.3rem;
+      &::after {
+        font-size: 0.65rem;
+        font-weight: 200;
+        color: lighten(#031c2d, 20);
+      }
+    }
+
+    h1,
+    h2,
+    .para,
+    .caption,
+    .button {
+      margin-bottom: 0.5rem;
+    }
+
+    h1 {
+      font-size: set-font-size($token-fonts-h-1-desktop-size);
+      font-weight: $token-fonts-h-1-desktop-weight;
+      line-height: $token-fonts-h-1-desktop-lineheight;
+    }
+
+    h2 {
+      font-size: set-font-size($token-fonts-h-2-desktop-size);
+      font-weight: $token-fonts-h-2-desktop-weight;
+      line-height: $token-fonts-h-2-desktop-lineheight;
+    }
+
+    .para {
+      font-size: set-font-size($token-fonts-para-size);
+      line-height: $token-fonts-para-lineheight;
+      font-weight: $token-fonts-para-weight;
+    }
+
+    .caption {
+      font-size: set-font-size($token-fonts-caption-large-size);
+      line-height: $token-fonts-caption-large-lineheight;
+      font-weight: $token-fonts-caption-large-weight;
+    }
+
+    .button {
+      font-size: set-font-size($token-fonts-button-size);
+      line-height: $token-fonts-button-lineheight;
+      font-weight: $token-fonts-button-weight;
+    }
+
+    // contents
+    // h1
+    .h1fs {
+      span {
+        &::after {
+          content: $token-fonts-h-1-desktop-size + "px";
+        }
+      }
+    }
+    .h1lh {
+      span {
+        &::after {
+          content: $token-fonts-h-1-desktop-lineheight + "";
+        }
+      }
+    }
+    .h1fw {
+      span {
+        &::after {
+          content: $token-fonts-h-1-desktop-weight + "";
+        }
+      }
+    }
+
+    // h2
+    .h2fs {
+      span {
+        &::after {
+          content: $token-fonts-h-2-desktop-size + "px";
+        }
+      }
+    }
+    .h2lh {
+      span {
+        &::after {
+          content: $token-fonts-h-2-desktop-lineheight + "";
+        }
+      }
+    }
+    .h2fw {
+      span {
+        &::after {
+          content: $token-fonts-h-2-desktop-weight + "";
+        }
+      }
+    }
+
+    // para
+    .pfs {
+      span {
+        &::after {
+          content: $token-fonts-para-size + "px";
+        }
+      }
+    }
+    .plh {
+      span {
+        &::after {
+          content: $token-fonts-para-lineheight + "";
+        }
+      }
+    }
+    .pfw {
+      span {
+        &::after {
+          content: $token-fonts-para-weight + "";
+        }
+      }
+    }
+
+    // caption
+    .cfs {
+      span {
+        &::after {
+          content: $token-fonts-caption-large-size + "px";
+        }
+      }
+    }
+    .clh {
+      span {
+        &::after {
+          content: $token-fonts-caption-large-lineheight + "";
+        }
+      }
+    }
+    .cfw {
+      span {
+        &::after {
+          content: $token-fonts-caption-large-weight + "";
+        }
+      }
+    }
+
+    // caption
+    .bfs {
+      span {
+        &::after {
+          content: $token-fonts-button-size + "px";
+        }
+      }
+    }
+    .blh {
+      span {
+        &::after {
+          content: $token-fonts-button-lineheight + "";
+        }
+      }
+    }
+    .bfw {
+      span {
+        &::after {
+          content: $token-fonts-button-weight + "";
+        }
+      }
+    }
+  }
+}

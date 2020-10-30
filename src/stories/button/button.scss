@@ -1,0 +1,61 @@
+@import "../../scss/styles.scss";
+.storybook-button {
+  font-family: $token-fonts-button-family;
+  font-weight: 400;
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  outline: none;
+
+  user-select: none;
+  transition: background-color 0.2s ease-in-out;
+
+  &--primary {
+    color: set-text-col($token-colors-secondary-2);
+    background-color: $token-colors-secondary-2;
+
+    &:hover {
+      background-color: lighten($token-colors-secondary-2, 10);
+    }
+
+    &:active {
+      background-color: darken($token-colors-secondary-2, 10);
+    }
+  }
+
+  &--secondary {
+    color: $token-colors-secondary-2;
+    background-color: transparent;
+    // box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+    box-shadow: $token-colors-secondary-2 0px 0px 0px 1px inset;
+
+    &:hover {
+      background-color: $token-colors-secondary-2;
+      color: set-text-col($token-colors-secondary-2);
+    }
+
+    &:active {
+      background-color: darken($token-colors-secondary-2, 10);
+    }
+  }
+
+  &--small {
+    font-size: set-font-size(
+      $token-fonts-button-size - $token-fonts-button-size / 4
+    );
+    padding: 0.95rem 3.2rem;
+  }
+
+  &--medium {
+    font-size: set-font-size($token-fonts-button-size);
+    padding: 1.15rem 3.4rem;
+  }
+
+  &--large {
+    font-size: set-font-size(
+      $token-fonts-button-size + $token-fonts-button-size / 4
+    );
+    padding: 1.35rem 3.6rem;
+  }
+}

@@ -1,0 +1,13 @@
+// set text color based on background color
+@function set-text-col($color) {
+  @if (lightness($color) > 70) {
+    @return #333;
+  } @else {
+    @return #fff;
+  }
+}
+
+// get correct unit
+@function set-font-size($num) {
+  @return $num * 1px;
+}

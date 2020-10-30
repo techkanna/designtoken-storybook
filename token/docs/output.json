@@ -1,0 +1,144 @@
+{
+  "token": {
+    "grids": {},
+    "spacers": {},
+    "colors": {
+      "extra 3": {
+        "value": "rgba(139.18750405311584, 126.08068495988846, 8.119267523288727, 1)",
+        "type": "color"
+      },
+      "extra 2": {
+        "value": "rgba(66.00000366568565, 8.000000473111868, 139.0000069141388, 1)",
+        "type": "color"
+      },
+      "extra 1": {
+        "value": "rgba(139.18750405311584, 8.119267523288727, 15.983354039490223, 1)",
+        "type": "color"
+      },
+      "primary": {
+        "value": "rgba(37.00000159442425, 35.00000171363354, 38.0000015348196, 1)",
+        "type": "color"
+      },
+      "secondary 1": {
+        "value": "rgba(97.00000181794167, 93.00000205636024, 93.00000205636024, 1)",
+        "type": "color"
+      },
+      "secondary 2": {
+        "value": "rgba(212.00000256299973, 39.00000147521496, 21.000000648200512, 1)",
+        "type": "color"
+      }
+    },
+    "fonts": {
+      "button": {
+        "family": {
+          "value": "Russo One, RussoOne-Regular",
+          "type": "typography"
+        },
+        "size": {
+          "value": 36,
+          "type": "typography"
+        },
+        "weight": {
+          "value": 400,
+          "type": "typography"
+        },
+        "lineheight": {
+          "value": "100%",
+          "type": "typography"
+        },
+        "spacing": {
+          "value": "normal",
+          "type": "typography"
+        }
+      },
+      "caption large": {
+        "family": {
+          "value": "Russo One, RussoOne-Regular",
+          "type": "typography"
+        },
+        "size": {
+          "value": 48,
+          "type": "typography"
+        },
+        "weight": {
+          "value": 400,
+          "type": "typography"
+        },
+        "lineheight": {
+          "value": "100%",
+          "type": "typography"
+        },
+        "spacing": {
+          "value": "6.720000000000001px",
+          "type": "typography"
+        }
+      },
+      "para": {
+        "family": {
+          "value": "Russo One, RussoOne-Regular",
+          "type": "typography"
+        },
+        "size": {
+          "value": 36,
+          "type": "typography"
+        },
+        "weight": {
+          "value": 400,
+          "type": "typography"
+        },
+        "lineheight": {
+          "value": "100%",
+          "type": "typography"
+        },
+        "spacing": {
+          "value": "0.36px",
+          "type": "typography"
+        }
+      },
+      "h2 desktop": {
+        "family": {
+          "value": "Russo One, RussoOne-Regular",
+          "type": "typography"
+        },
+        "size": {
+          "value": 48,
+          "type": "typography"
+        },
+        "weight": {
+          "value": 400,
+          "type": "typography"
+        },
+        "lineheight": {
+          "value": "100%",
+          "type": "typography"
+        },
+        "spacing": {
+          "value": "normal",
+          "type": "typography"
+        }
+      },
+      "h1 desktop": {
+        "family": {
+          "value": "Russo One, RussoOne-Regular",
+          "type": "typography"
+        },
+        "size": {
+          "value": 96,
+          "type": "typography"
+        },
+        "weight": {
+          "value": 400,
+          "type": "typography"
+        },
+        "lineheight": {
+          "value": "100%",
+          "type": "typography"
+        },
+        "spacing": {
+          "value": "normal",
+          "type": "typography"
+        }
+      }
+    }
+  }
+}
